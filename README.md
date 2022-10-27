@@ -722,3 +722,5 @@ ALLOWED_HOSTS = ['*']
 
 ## Автор
 **Вихарев Алексей**
+
+![Django-app workflow](https://github.com/avvikharev/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/avvikharev/yamdb_final/actions/workflows/yamdb_workflow.yml)
