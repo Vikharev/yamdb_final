@@ -45,7 +45,7 @@ jobs:
           context: ./api_yamdb
           push: true
           file: ./api_yamdb/Dockerfile
-          tags: avvikharev/api_yamdb:latest
+          tags: avvikharev/yamdb_final:latest
 
 
   deploy:
