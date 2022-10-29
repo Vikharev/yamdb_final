@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    image: avvikharev/api_yamdb:latest
+    image: avvikharev/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
