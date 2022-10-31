@@ -4,12 +4,15 @@
 Проект **YaMDb** собирает отзывы пользователей на различные произведения.
 
 ## Используемые технологии:
->- Python 3.7 
->- Django 2.2.16
->- PostgreSQL (psycopg2-binary==2.8.6)
->- PyJWT  2.1.0
->- djangorestframework 3.12.4
->- django-filter 21.1
+- Python 3.7 
+- Django 2.2.16
+- PostgreSQL (psycopg2-binary==2.8.6)
+- PyJWT  2.1.0
+- djangorestframework 3.12.4
+- django-filter 21.1
+- nginx 1.21.3-alpine
+- Docker
+- YandexCloud
 
 # Алгоритм регистрации пользователей
 1. Пользователь отправляет POST-запрос на добавление нового пользователя с параметрами `email` и `username` на эндпоинт `/api/v1/auth/signup/`.
